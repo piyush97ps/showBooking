@@ -1,6 +1,6 @@
 from typing import Dict, Tuple, List
 from datetime import datetime
-from showBooking.models.book import Book
+from models.book import Book
 
 class Show:
 

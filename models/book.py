@@ -1,7 +1,7 @@
 from typing import Dict, Tuple
 from datetime import datetime
-import Show
-import User
+from models.show import Show
+from models.user import User
 from enum import Enum
 
 class BookingStatus(Enum):

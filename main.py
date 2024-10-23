@@ -1,5 +1,7 @@
+## github link: https://github.com/piyush97ps/showBooking
+
 from datetime import datetime, date
-from showBooking.service.bookingManager import BookingManager
+from service.bookingManager import BookingManager
 
 today = date.today()
 

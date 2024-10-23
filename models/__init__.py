@@ -1,10 +1,10 @@
-from .user import user
-from .show import Show
-from .book import Book
+from models.user import User
+from models.show import Show
+from models.book import Book
 # from .market_places import MarketPlace
 
 __all__ = [
-    'user',
-    'user'
+    'User',
+    'Show'
     'Book'
 ]
