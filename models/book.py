@@ -1,6 +1,5 @@
 from typing import Dict, Tuple
 from datetime import datetime
-from models.show import Show
 from models.user import User
 from enum import Enum
 
@@ -11,9 +10,9 @@ class BookingStatus(Enum):
 
 class Book:
 
-    def __init__(self, show: Show, user: User, ticket_count: int = 1) -> None:
+    def __init__(self, show, user: User, ticket_count: int = 1) -> None:
         self.booking_id: str = f"{show.name}_{user.user_name}"
-        self.show: Show = show
+        self.show = show
         self.user: User = user
         self.ticket_count: str = ticket_count
         self.booking_status: BookingStatus = BookingStatus.pending

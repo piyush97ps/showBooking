@@ -9,5 +9,5 @@ if __name__ == "__main__":
     booking_manager = BookingManager()
     slot = (datetime(today.year, today.month, today.day, 9, 0, 0),
              datetime(today.year, today.month, today.day, 10, 0, 0))
-    res = booking_manager.registerShow(name = "TMKOC", genre="Comedy", slot=slot)
+    res = booking_manager.registerShow(name = "TMKOC", genres="Comedy", capacity=10, slot=slot)
     print(res)
