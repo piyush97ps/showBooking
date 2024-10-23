@@ -1,0 +1,19 @@
+[
+    {
+        "input": [
+            {
+                "action": "registerShow",
+                "data": {
+                    "name": "TMKOC",
+                    "slot": "9:00-11:00",
+                    "genre": "Comedy"
+                }
+            },
+            {
+                "action": "onboardShowSlots",
+                "data": {}
+            }
+        ],
+        "output": {}
+    }
+]
